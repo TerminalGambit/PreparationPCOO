@@ -3,14 +3,14 @@ package TP.Preparation.Initialisation;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Main<T> {
+public class Boite<T> {
     private T contenu;
 
-    public Main() {
+    public Boite() {
         this.contenu = null;
     }
 
-    public Main(T contenu) {
+    public Boite(T contenu) {
         this.contenu = contenu;
     }
 
@@ -31,7 +31,7 @@ public class Main<T> {
 
         System.out.println(arr1);
 
-        Main<String> boite = new Main<>();
+        Boite<String> boite = new Boite<>();
         boite.setContenu("Hello, World!");
         System.out.println(boite.getContenu());
     }
