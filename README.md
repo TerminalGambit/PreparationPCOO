@@ -8,4 +8,4 @@
 
 > Comment initialiser un ArrayList
 
-> Comprendre les boîtes Boite<T># PreparationPCOO
+> Comprendre les boîtes Boite<T>
